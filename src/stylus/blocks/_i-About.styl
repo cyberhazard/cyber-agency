@@ -1,0 +1,67 @@
+.i-About
+  &__subheading
+    font-weight: 400
+    font-size: 1.8rem
+    color #000
+    margin-bottom 0.8rem
+    text-align center
+  &__heading
+    font-family: 'Gotham Pro'
+    font-weight: 900
+    font-size: 4.6rem
+    color #000
+    margin-bottom 3.8rem
+    text-align center
+  &__text
+    font-size: 1.6rem
+    color black
+    &_bold
+      font-weight: bold
+    &_big
+      font-size: 1.8rem
+    &_center
+      text-align center
+  &__blockquote
+    position relative
+    width 100.4rem
+    border 1px solid #F04140
+    margin 0 auto
+    padding 5rem 0
+    text-align center
+    font-weight 600
+    font-style italic
+    font-size 2.4rem
+    color #000
+    margin-top 3.7rem
+    & span
+      position relative
+    &::before
+      content ''
+      position absolute
+      top 2.5rem
+      bottom 2.5rem
+      left 1rem
+      right 1rem
+      border-left 1px solid #F26A7E
+      border-right 1px solid #F26A7E
+      opacity 0.2
+    &::after
+      content ''
+      position absolute
+      top 1rem
+      bottom 1rem
+      left 2.5rem
+      right 2.5rem
+      border-top 1px solid #F26A7E
+      border-bottom 1px solid #F26A7E
+      opacity 0.2
+  &__quote
+    width 2rem
+    height 1.7rem
+    position absolute
+    &_left
+      bottom 100%
+      right calc(100% + 1.5rem)
+    &_right
+      top 50%
+      left calc(100% + 1.5rem)
