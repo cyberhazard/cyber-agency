@@ -22,6 +22,8 @@ html
   padding-right 3rem
 
 .Button
+  display flex
+  align-items center
   position relative
   font-family: 'Open Sans'
   font-weight: bold
@@ -34,6 +36,9 @@ html
   cursor pointer
   transition opacity .3s
   will-change: opacity
+  flex 0 0 auto
+  &_mini
+    padding 1.6rem 3rem 2rem
   &::after
     content: ''
     position absolute
