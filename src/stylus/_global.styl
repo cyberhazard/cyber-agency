@@ -12,6 +12,7 @@ html
 
 .Wrapper
   width 100%
+  min-height: 100vh
   overflow-x: hidden
 
 .g-wrapper
@@ -19,6 +20,35 @@ html
   margin 0 auto
   padding-left 3rem
   padding-right 3rem
+
+.Button
+  position relative
+  font-family: 'Open Sans'
+  font-weight: bold
+  font-size: 1.8rem
+  color #fff
+  background-image: linear-gradient(to bottom, #F04140, #E41B63)
+  border none
+  padding 1.6rem 4rem 2rem
+  border-radius 30px
+  cursor pointer
+  transition opacity .3s
+  will-change: opacity
+  &::after
+    content: ''
+    position absolute
+    top 0
+    bottom 0
+    left 12%
+    right 12%
+    border-radius 30px
+    box-shadow: 0 12px 24px rgba(#E51C63,.4)
+    transition box-shadow .3s
+    will-change: box-shadow
+  &:hover
+    opacity 0.9
+    &::after
+      box-shadow: none
 
 @media (max-width: 1600px)
   html
