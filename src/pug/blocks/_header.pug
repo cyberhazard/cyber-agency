@@ -1,0 +1,14 @@
+header.Header
+  a.Header__logo(href="/"): include ../../images/logo.svg
+  nav.Header__menu.Menu
+    include ../data/menu.pug
+    each item, index in menu
+      a.Menu__link(href=item.path)&attributes({class: activeMenuItem===index? 'Menu__link_active':''})= item.name
+  .Header__phone.Phone
+    .Phone__container
+      include ../../images/phone.svg
+      a.Phone__numbers(href="tel:+74959995555") +7 (495) 999-55-55
+    .Phone__text Мы работаем круглосуточно!
+  button.Header__callback.Button.Button_mini
+    include ../../images/ringing-phone.svg
+    | Заказать звонок

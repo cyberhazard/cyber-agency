@@ -1,0 +1,55 @@
+.Header
+  display flex
+  align-items center
+  padding 4rem 15rem 0
+  &__logo
+    margin-right 10rem
+    & svg
+      width 14.1rem
+      height 5rem
+  &__menu
+    flex-grow: 1
+  &__callback
+    & svg
+      margin-right 1rem
+      width 2rem
+      height 2rem
+  &__phone
+    flex 0 0 auto
+    margin-right 3rem
+
+.Phone
+  text-align right
+  &__container
+    display flex
+    align-items center
+    margin-bottom 0.4rem
+  & svg
+    width 1.6rem
+    height 1.6rem
+    margin-right 0.8rem
+  &__numbers
+    font-weight: 800
+    font-size: 2rem
+    color #000
+  &__text
+    font-size: 1.2rem
+    color #000
+
+.Menu
+  display flex
+  &__link
+    font-family: 'Open Sans'
+    font-weight: 400
+    font-size: 1.6rem
+    color #000
+    opacity 0.25
+    transition opacity .3s
+    will-change: opacity
+    cursor pointer
+    margin-right 3.5rem
+    &:last-child
+      margin-right 0
+    &:hover,
+    &_active
+      opacity 1
