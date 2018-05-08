@@ -71,3 +71,49 @@
     font-size: 1.4rem
     color #000
     line-height: 2.4rem
+
+@media (max-width: 1000px)
+  .i-Services
+    margin-bottom 16rem
+    &__subheading
+      font-size: 2.4rem
+      margin-bottom 0
+    &__heading
+      font-size: 3.6rem
+      margin-bottom 3.5rem
+    &__text
+      font-size: 1.6rem
+      line-height: 2.6rem
+    &__block
+      width calc((100% / 2) - 3rem)
+
+@media (max-width: 667px)
+  .i-Services
+    margin-bottom 12rem
+    &__subheading
+      font-size: 1.6rem
+      margin-bottom 0
+    &__heading
+      font-size: 2.6rem
+      margin-bottom 2.6rem
+    &__text
+      font-size: 1.4rem
+      line-height: 2.2rem
+    &__block
+      width 100%
+      margin 10rem 0 0
+    &__blocks
+      margin 0
+  .i-ServiceBlock
+    &__content
+      padding 1rem 3rem 4.5rem
+    &__circle
+      width 9rem
+      height 9rem
+      & svg
+        height 4rem
+    &__title
+      font-size: 1.6rem
+      margin-bottom 1.1rem
+    &__text
+      line-height: 2.2rem

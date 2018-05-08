@@ -23,7 +23,7 @@
     z-index -1
   &__subheading
     font-weight: 400
-    font-size: 1.8rem
+    font-size: 2.8rem
     color #000
     margin-bottom 0.8rem
     text-align center
@@ -147,3 +147,110 @@
       height 1.2rem
       margin-left 1.2rem
       transform: translateY(1px)
+/*
+*
+*******************************************
+*
+*/
+@media (max-width: 1000px)
+  .i-About
+    margin-bottom 18rem
+    &::before,
+    &::after
+      display none
+    &__subheading
+      font-size: 2.4rem
+      margin-bottom 0.1rem
+    &__heading
+      font-size: 3.6rem
+      margin-bottom 3.4rem
+    &__blockquote
+      width 100%
+      font-size 1.9rem
+      margin-top 3.4rem
+    &__quote
+      &_left
+        right calc(100% + .3rem)
+      &_right
+        left calc(100% + .3rem)
+    &__photo
+      display flex
+      align-items center
+      width 24.5rem
+      margin-right 6rem
+      &::before
+        right 0
+        transform translate(25%,25%)
+        font-size: 12rem
+        z-index -1
+    &__descriptionBlock
+      margin-bottom 6.3rem
+    &__cite
+      margin 3.2rem 0
+    &__convoy
+      font-size: 2.4rem
+      line-height: 3.2rem
+      margin-bottom 1.4rem
+    &__footer
+      text-align center
+      & svg
+        width 0.7rem
+        height 1.2rem
+        margin-left 1.2rem
+        transform: translateY(1px)
+/*
+*
+*******************************************
+*
+*/
+@media (max-width: 667px)
+  .i-About
+    &__subheading
+      font-size: 1.6rem
+      margin-bottom 0.1rem
+    &__heading
+      font-size: 2.6rem
+      margin-bottom 2.6rem
+    &__text
+      font-size: 1.4rem
+      &_big
+        font-size: 1.4rem
+    &__blockquote
+      font-size 1.6rem
+      margin-top 3.4rem
+      margin-bottom 3rem
+      padding 5.2rem 4.5rem 4.3rem
+    &__quote
+      &_left
+        right auto
+        left 0
+        transform translate(-200%,0)
+      &_right
+        left auto
+        right 0
+        transform translate(350%, 200%)
+    &__descriptionBlock
+      display block
+    &__photo
+      width 100%
+      margin-right 0
+      margin-bottom 4rem
+      &::before
+        transform translate(15%,25%)
+        font-size: 9rem
+    &__descriptionBlock
+      margin-bottom 6.3rem
+    &__cite
+      margin 2.2rem 0
+    &__convoy
+      font-size: 1.8rem
+      line-height: 2.6rem
+      margin-top 1.4rem
+      margin-bottom 2.2rem
+    &__footer
+      text-align center
+      & svg
+        width 0.7rem
+        height 1.2rem
+        margin-left 1.2rem
+        transform: translateY(1px)
