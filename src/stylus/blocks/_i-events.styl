@@ -1,0 +1,136 @@
+.i-Events
+  margin-bottom 18rem
+  position relative
+  &::before
+    content ''
+    position absolute
+    top 0
+    right 0
+    width 53.5rem
+    height 52rem
+    background: url('/images/bg4.png') center center/cover no-repeat
+    transform translateY(-65%)
+    z-index -1
+  &__header
+    display flex
+    align-items center
+    margin-bottom 2.7rem
+  &__headerContent
+    margin-left -5rem
+  &__headerIcon
+    height 10rem
+    transform translateX(-50%)
+  &__subheading
+    font-size: 2.8rem
+    color #000
+    font-weight: 400
+    margin-bottom 0.8rem
+  &__heading
+    font-family: 'Gotham Pro'
+    font-size: 4.6rem
+    color #000
+    font-weight: 900
+  &__description
+    font-size: 1.8rem
+    line-height: 2.8rem
+    color #000
+    margin-bottom 3rem
+  &__events
+    display flex
+    justify-content space-between
+    align-items flex-start
+  &__event
+    width 56rem
+  &__photo
+    width 100%
+    height 40rem
+    margin-bottom 2.6rem
+  &__text
+    font-size: 2.4rem
+    line-height: 3.4rem
+    margin-bottom 1.5rem
+  &__title
+    font-family: 'Gotham Pro'
+    font-weight: 900
+    font-size: 3rem
+    line-height: 3.8rem
+
+
+
+
+@media (max-width: 1000px)
+  .i-Events
+    margin-bottom 9rem
+    &::before
+      width 27rem
+      height 33rem
+      background: url('/images/bg4.png') left top/contain no-repeat
+      transform translate(14%,-65%)
+    &__header
+      margin-bottom 3.2rem
+    &__headerContent
+      margin-left 0
+    &__headerIcon
+      height 9rem
+      transform translateX(-20%)
+    &__subheading
+      font-size: 2.4rem
+      margin-bottom 1rem
+    &__heading
+      font-size: 3.6rem
+    &__description
+      font-size: 1.6rem
+      line-height: 2.6rem
+    &__events
+      display block
+    &__event
+      width 56rem
+      margin 0 auto
+      margin-bottom 3rem
+    &__photo
+      width 100%
+      height 40rem
+      margin-bottom 1.8rem
+    &__text
+      font-size: 2rem
+      line-height: 3rem
+      margin-bottom .5rem
+    &__title
+      font-size: 2.4rem
+      line-height: 3.2rem
+
+
+
+@media (max-width: 667px)
+  .i-Events
+    margin-bottom 12rem
+    &::before
+      display none
+    &__header
+      margin-bottom 2.6rem
+    &__headerIcon
+      display none
+    &__subheading
+      font-size: 1.6rem
+      margin-bottom .3rem
+    &__heading
+      font-size: 2.6rem
+    &__description
+      font-size: 1.4rem
+      line-height: 2.2rem
+    &__events
+      display block
+    &__event
+      width 100%
+      margin-bottom 3rem
+    &__photo
+      width 100%
+      height 23rem
+      margin-bottom 2rem
+    &__text
+      font-size: 1.6rem
+      line-height: 2.4rem
+      margin-bottom .3rem
+    &__title
+      font-size: 1.8rem
+      line-height: 2.6rem
