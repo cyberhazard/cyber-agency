@@ -1,0 +1,158 @@
+.i-Blog
+  padding-bottom 20rem
+  background url('/images/bullets.png') left bottom/12% auto no-repeat
+  &__container
+    position relative
+  &__sniper
+    position absolute
+    top -4rem
+    right 0
+    width 25rem
+    height 27.5rem
+    background: url('/images/sniper.png') center center/cover
+    &::after
+      content 'БЛОГ'
+      position absolute
+      top 5rem
+      left 70%
+      font-family: 'Gotham Pro'
+      font-weight: 900
+      color #fff
+      text-shadow: 20px 10px 24px rgba(#000,.08)
+      z-index -1
+      font-size: 16rem
+  &__subheading
+    font-size: 2.8rem
+    color #000
+    margin-bottom 0.8rem
+  &__heading
+    font-family: 'Gotham Pro'
+    font-weight: 900
+    font-size: 4.6rem
+    color #000
+    margin-bottom 3.7rem
+  &__cite
+    font-family: 'Open Sans'
+    font-size: 1.8rem
+    line-height: 2.8rem
+    color #000
+    margin-bottom 7.3rem
+    width 77%
+  &__posts
+    display flex
+    align-items flex-start
+    box-shadow: 0 10px 24px rgba(#000, .08)
+    margin-bottom 6rem
+  &__post
+    padding 3.5rem 6rem
+    width calc(100% / 3)
+    border-right 1px solid #EDEDED
+  &__date
+    display flex
+    align-items center
+    font-size: 1.4rem
+    color RGB(147, 146, 147)
+    margin-bottom 1.5rem
+    & svg
+      width 1.4rem
+      height 1.4rem
+      margin-right 0.8rem
+  &__title
+    font-family: 'Gotham Pro'
+    font-weight: 900
+    font-size: 3rem
+    line-height: 3.8rem
+    margin-bottom 1.8rem
+  &__text
+    font-size: 1.4rem
+    font-weight: 400
+    line-height: 2.4rem
+    margin-bottom 2.2rem
+  &__more
+    font-size: 1.4rem
+    font-weight: bold
+    color #3F58B5
+    text-decoration: underline
+  &__footer
+    text-align center
+  &__button
+    & svg
+      width 1.5rem
+      height 1.5rem
+      margin-right 1rem
+
+
+@media (max-width: 1000px)
+  .i-Blog
+    padding-bottom 16rem
+    background none
+    &__sniper
+      top -5rem
+      right 20rem
+      width 15.6rem
+      height 17.1rem
+      &::after
+        font-size: 12rem
+    &__subheading
+      font-size: 2.4rem
+      margin-bottom 0.1rem
+    &__heading
+      font-size: 3.6rem
+      margin-bottom 3.5rem
+    &__cite
+      font-size: 1.6rem
+      line-height: 2.6rem
+      margin-bottom 7.3rem
+      width 100%
+    &__post
+      padding 3.4rem 5rem
+      width calc(100% / 2)
+      &:nth-child(n+3)
+        display none
+    &__title
+      font-size: 2.4rem
+      line-height: 3.2rem
+    &__button
+      & svg
+        width 1.4rem
+        height 1.4rem
+        margin-right .6rem
+
+
+@media (max-width: 667px)
+  .i-Blog
+    padding-bottom 12rem
+    &__sniper
+      display none
+    &__subheading
+      font-size: 1.6rem
+    &__heading
+      font-size: 2.6rem
+      margin-bottom 2.6rem
+    &__cite
+      font-size: 1.4rem
+      line-height: 2.2rem
+      margin-bottom 5.4rem
+    &__posts
+      display block
+      box-shadow: none
+      margin-bottom 4rem
+    &__post
+      padding 2.5rem 2rem 3.8rem
+      width 100%
+      border-right none
+      border-bottom 1px solid #EDEDED
+      &:nth-child(n+3)
+        display none
+    &__title
+      font-size: 1.8rem
+      line-height: 2.6rem
+      margin-bottom 1.5rem
+    &__text
+      font-size: 1.4rem
+      line-height: 2.4rem
+    &__button
+      & svg
+        width 1.3rem
+        height 1.3rem
+        margin-right .6rem
