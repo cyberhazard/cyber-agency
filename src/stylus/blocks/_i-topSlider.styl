@@ -1,0 +1,177 @@
+.i-TopSlider
+  padding-top 11.5rem
+  background url('/images/gamepad.png') left center/13% auto no-repeat
+  &__container
+    width 70rem
+    position relative
+  &__notebook
+    position absolute
+    top 0
+    left 100%
+    width 70rem
+    pointer-events: none
+    z-index -1
+  &__slider
+    width 100%
+    position relative
+    z-index 1
+    overflow hidden
+    margin-bottom 8rem
+  &__text
+    font-size: 2.8rem
+    line-height: 3.6rem
+    color #000
+    margin-bottom 1.2rem
+  &__heading
+    font-family: 'Gotham pro'
+    font-weight: 900
+    font-size: 4.6rem
+    line-height: 5.6rem
+    margin-bottom 4rem
+  &__list
+    margin-bottom 5.5rem
+    width 53.6rem
+  &__item
+    display flex
+    align-items center
+    font-weight: 600
+    font-size: 1.8rem
+    line-height: 2.6rem
+    color #000
+    margin-bottom 3rem
+    & svg
+      width 3.6rem
+      height 3.6rem
+      flex 0 0 auto
+      margin-right 1.6rem
+  &__button
+    & svg
+      width 0.7rem
+      height 1.2rem
+      margin-left 1.2rem
+      transform translateY(2px)
+  &__footer
+    display flex
+    align-items center
+    width 70rem
+    margin-bottom 18rem
+  &__arrow
+    display flex
+    justify-content center
+    align-items center
+    height 7.2rem
+    width 7.2rem
+    border-radius 50%
+    box-shadow: 0 4px 16px rgba(0,0,0,.06)
+    cursor pointer
+    outline none
+    flex 0 0 auto
+    &_left
+      margin-right 1.1rem
+    &.swiper-button-disabled
+      opacity 0.4
+    & svg
+      height 2rem
+  &__pagination
+    display flex
+    flex-grow: 1
+  &__pag
+    padding 0 1.4rem !important
+    font-size: 2.4rem !important
+    font-weight: bold !important
+    color #3F58B5 !important
+    border-bottom 3px solid #3F58B5 !important
+    opacity 0.3 !important
+    cursor pointer !important
+    width auto !important
+    height auto !important
+    border-radius 0 !important
+    background none !important
+    outline none
+    user-select: none
+    &.swiper-pagination-bullet-active
+      opacity 1 !important
+
+
+@media (max-width: 1000px)
+  .i-TopSlider
+    padding-top 9.6rem
+    background none
+    &__container
+      width 50.1rem
+    &__notebook
+      width 60rem
+      left 75%
+    &__text
+      font-size: 2.4rem
+      line-height: 3.2rem
+      margin-bottom 1.5rem
+    &__heading
+      font-size: 3.6rem
+      line-height: 4.6rem
+    &__list
+      margin-bottom 5.3rem
+      width 38.2rem
+    &__item
+      font-size: 1.6rem
+      line-height: 2.4rem
+      margin-bottom 2.5rem
+    &__button
+      & svg
+        transform translateY(1px)
+    &__footer
+      width 50.1rem
+      margin-bottom 16rem
+    &__arrow
+      height 6rem
+      width 6rem
+      &_left
+        margin-right 2rem
+    &__pag
+      padding 0 1.4rem !important
+      font-size: 2.4rem !important
+
+@media (max-width: 667px)
+  .i-TopSlider
+    padding-top 4.4rem
+    &__container
+      width 100%
+    &__notebook
+      display none
+    &__text
+      font-size: 1.6rem
+      line-height: 2.4rem
+      margin-bottom 1rem
+    &__heading
+      font-size: 2.6rem
+      line-height: 3.2rem
+      margin-bottom 2.7rem
+    &__list
+      margin-bottom 3.5rem
+      width 100%
+    &__item
+      font-size: 1.4rem
+      line-height: 2rem
+      margin-bottom 1.5rem
+      & svg
+        width 3rem
+        height 3rem
+    &__button
+      & svg
+        transform translateY(1px)
+    &__slider
+      margin-bottom 6rem
+    &__footer
+      width 100%
+      margin-bottom 12rem
+    &__arrow
+      height 4.4rem
+      width 4.4rem
+      &_left
+        margin-right 2.6rem
+        order -1
+      &_right
+        margin-left 2.6rem
+    &__pag
+      padding 0 1rem !important
+      font-size: 1.8rem !important
