@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Left</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index-(Desktop)" transform="translate(-1399.000000, -5955.000000)">
+            <g id="#6" transform="translate(397.000000, 5763.000000)">
+                <g id="Arrows" transform="translate(1002.000000, 192.000000)">
+                    <g id="Left">
+                        <rect id="Oval" stroke="#000000" stroke-width="2" x="1" y="1" width="54" height="54" rx="27"></rect>
+                        <path d="M26.9999668,34 C26.6415261,34 26.2831297,33.8559434 26.0098507,33.568436 L17.4102836,24.5166336 C16.8632388,23.9408267 16.8632388,23.0072545 17.4102836,22.4316805 C17.9571071,21.8561065 18.8438694,21.8561065 19.3909584,22.4316805 L26.9999668,30.4412159 L34.6090194,22.43196 C35.1560642,21.856386 36.042738,21.856386 36.5895172,22.43196 C37.1368276,23.007534 37.1368276,23.9411062 36.5895172,24.5169132 L27.9900829,33.5687155 C27.7166712,33.8562696 27.3582747,34 26.9999668,34 Z" id="Arrow" fill="#000000" fill-rule="nonzero" transform="translate(27.000000, 28.000000) rotate(-270.000000) translate(-27.000000, -28.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

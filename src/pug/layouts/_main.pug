@@ -8,10 +8,15 @@ html(lang="ru")
     title= title
     link(rel="stylesheet", href="/css/style.css")
     link(rel="stylesheet", href="/vendor/swiper.min.css")
+    link(rel="stylesheet", href="/vendor/alertify.default.css")
+    link(rel="stylesheet", href="/vendor/alertify.core.css")
     script(src="https://cdn.polyfill.io/v2/polyfill.js?features=default,fetch")
     script(src="/vendor/swiper.min.js")
   body.Page
     .Wrapper
+      include ../blocks/_mobile-menu.pug
       include ../blocks/_header.pug
       block content
+      include ../blocks/_callbackPopup.pug
+    script(src="/vendor/alertify.min.js")
     script(src="/js/main.js")

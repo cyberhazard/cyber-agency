@@ -1,0 +1,161 @@
+.CallbackPopup
+  position fixed
+  top 0
+  left 0
+  right 0
+  bottom 0
+  background-color rgba(0,0,0,.4)
+  z-index 10
+  display none
+  justify-content center
+  align-items center
+  opacity 0
+  transition: opacity .5s
+  will-change: opacity
+  &__container
+    position relative
+    background-color #fff
+    padding 6rem 6rem 7rem
+    border-radius: 6px
+  &__close
+    position absolute
+    top 0
+    right 0
+    display flex
+    justify-content center
+    align-items center
+    transform translate(50%, -50%)
+    width 6.2rem
+    height 6.2rem
+    background-color #fff
+    border 1px solid #EEEEEE
+    border-radius: 50%
+    box-shadow: 0 2px 4px rgba(#CECECE, .5)
+    cursor pointer
+    &::after
+      content '\f00d'
+      font-family: 'FontAwesome'
+      font-size: 2.8rem
+      color black
+      opacity 0.15
+  &__heading
+    font-size: 3rem
+    color black
+    font-family 'Gotham Pro'
+    font-weight 900
+    text-align center
+    margin-bottom 3rem
+  &__button
+    display block
+    margin 0 auto
+    font-family OpenSans
+    font-weight 700
+    font-size 1.8rem
+    &:last-child
+      display block
+      margin 0 auto
+  &__text
+    font-size: 2.1rem
+    font-weight: 400
+    color black
+    margin-bottom 0.5rem
+  &__title
+    font-size: 1.9rem
+    font-weight: 300
+    margin-bottom 1.8rem
+  &__form
+    width 54rem
+  &__input
+    display block
+    width 100%
+    font-size: 1.6rem
+    font-weight: 600
+    color black
+    font-family OpenSans
+    padding 1.2rem 3.4rem
+    border 1px solid #E0E0E0
+    border-radius: 100px
+    margin-bottom 1rem
+    &::placeholder
+      color #999999
+  &__agreement
+    display flex
+    justify-content center
+    align-items center
+    margin 3.8rem 0
+  &__textarea
+    resize none
+    height 10rem
+    border-radius 2rem
+  &__checkbox
+    display none
+    &:checked + label::before
+      background-color #F04140
+  &__item
+    margin-bottom 2.2rem
+  &__label
+    position relative
+    font-family 'Open Sans'
+    font-size: 1.4rem
+    font-weight: 400
+    color #999999
+    user-select: none
+    cursor pointer
+    &_input
+      display block
+      font-size 1.6rem
+      font-family OpenSans
+      font-weight 400
+      margin-bottom 0.8rem
+      & span
+        color #F04140
+    &::before
+      content ''
+      position absolute
+      top 50%
+      right calc(100% + 7px)
+      width 2rem
+      height 2rem
+      border 1px solid #CACACA
+      border-radius: 4px
+      transform translateY(-50%)
+      background-clip: content-box
+      padding 2px
+      box-sizing: border-box
+  &__link
+    font-size: 1.4rem
+    font-weight: 500
+    color #F04140
+    text-decoration: underline
+
+.alertify-logs
+  font-size 1.8rem
+
+@media (max-width 667px)
+  .CallbackPopup
+    &__container
+      width 90%
+      padding 4rem 2rem
+    &__form
+      width 100%
+    &__label
+      display inline-block
+      font-size 1.2rem
+      &_input
+        font-size 1.4rem
+      &::before
+        width 1.4rem
+        height 1.4rem
+    &__close
+      width: 4.2rem;
+      height: 4.2rem;
+    &__agreement
+      display flex
+      flex-wrap wrap
+      text-align center
+    &__link
+      font-size 1.2rem
+    &__input
+      font-size 1.2rem
+    &__button
+      font-size 1.4rem

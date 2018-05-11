@@ -1,0 +1,21 @@
+.CallbackPopup#mailPopup
+  .CallbackPopup__container
+    .CallbackPopup__close
+    h2.CallbackPopup__heading Написать нам
+    form.CallbackPopup__form
+      .CallbackPopup__item
+        label.CallbackPopup__label_input Ваше имя:
+        input.CallbackPopup__input(type="text" name="name" placeholder="Например, Антон" )
+      .CallbackPopup__item
+        label.CallbackPopup__label_input <span>*</span> Ваш телефон:
+        input.CallbackPopup__input(type="tel" name="tel" placeholder="+7 (999) 999-99-99" required)
+      .CallbackPopup__item
+        label.CallbackPopup__label_input Ваше сообщение:
+        textarea.CallbackPopup__input.CallbackPopup__textarea(type="text" name="text" placeholder="Что вас интересует?" )
+      .CallbackPopup__agreement
+        input.CallbackPopup__checkbox#callback_chk(type="checkbox")
+        label.CallbackPopup__label(for="callback_chk") Согласен на обработку&nbsp;&nbsp;
+        a.CallbackPopup__link(href="/") персональных данных
+      button(type="submit").Button.i-TopSlider__button.CallbackPopup__button Отправить сообщение
+        include ../../images/arrow-right-font.svg
+
