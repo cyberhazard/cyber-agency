@@ -5,7 +5,7 @@
   &__logo
     margin-right 10rem
     & svg
-      width 14.1rem
+      width 14rem
       height 5rem
   &__menu
     flex-grow: 1
@@ -17,6 +17,10 @@
   &__phone
     flex 0 0 auto
     margin-right 3rem
+  &__left
+    display flex
+    justify-content flex-start
+    align-items center
 
 .Phone
   text-align right
@@ -53,3 +57,31 @@
     &:hover,
     &_active
       opacity 1
+
+@media (max-width 1000px)
+  .Menu
+    display none
+  .Header
+    position fixed
+    top 0
+    left 0
+    width 100%
+    z-index 10
+    background white
+    margin 0 auto
+    padding 2rem 3rem
+    justify-content space-between
+    &__phone
+      margin-right 0
+    &__callback
+      display none
+
+@media (max-width 667px)
+  .Header
+    padding 1rem 2rem
+    &__phone
+      display none
+    &__logo
+      margin-right 10rem
+      & svg
+        width 8.4rem
