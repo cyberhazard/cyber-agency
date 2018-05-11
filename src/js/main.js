@@ -15,3 +15,25 @@ void function() {
     },
   })
 }()
+
+void function() {
+  const sliderBlock = document.querySelector('.Partners__slider_container');
+  if (!sliderBlock) return null;
+  new Swiper(sliderBlock, {
+    slidesPerView: 5,
+    spaceBetween: 60,
+    navigation: {
+      prevEl: '.Partners__button_prev',
+      nextEl: '.Partners__button_next',
+    },
+    breakpoints: {
+      // when window width is <= 320px
+      1000: {
+        slidesPerView: 4,
+      },
+      667: {
+        slidesPerView: 2,
+      },
+    }
+  })
+}()

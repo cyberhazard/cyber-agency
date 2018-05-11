@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="94px" viewBox="0 0 90 94" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Twitter</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-26.3%" y="-100.0%" width="144.9%" height="370.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="9" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <circle id="path-2" cx="20" cy="20" r="20"></circle>
+        <filter x="-100.0%" y="-80.0%" width="300.0%" height="300.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index-(Desktop)" transform="translate(-1395.000000, -6798.000000)">
+            <g id="#7" transform="translate(389.000000, 6118.000000)">
+                <g id="Footer" transform="translate(0.000000, 690.000000)">
+                    <g id="Social" filter="url(#filter-1)" transform="translate(921.000000, 5.000000)">
+                        <g id="Twitter" transform="translate(110.000000, 0.000000)">
+                            <g id="Oval">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                                <use fill="#2AA3EF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            </g>
+                            <path d="M29,14.6571184 C28.3749265,14.9381384 27.7018473,15.128152 26.9967643,15.2141582 C27.716849,14.7761269 28.2699141,14.0840774 28.5299447,13.2590185 C27.8558654,13.6640474 27.1097776,13.9580684 26.3146841,14.1160797 C25.6786092,13.4290306 24.7725026,13 23.7693846,13 C21.843158,13 20.2809742,14.582113 20.2809742,16.5342524 C20.2809742,16.8122723 20.312978,17.0812915 20.3719849,17.34031 C17.473644,17.1932995 14.9043417,15.7851989 13.1841393,13.6470462 C12.8831039,14.1690835 12.7120838,14.7761269 12.7120838,15.4241732 C12.7120838,16.6502607 13.3281563,17.732338 14.2632663,18.3653832 C13.691199,18.347382 13.1531357,18.1883706 12.6840805,17.9233517 L12.6840805,17.9683549 C12.6840805,19.6804772 13.8852218,21.1085792 15.4814096,21.4336024 C15.1883751,21.5146082 14.881339,21.5576113 14.5623014,21.5576113 C14.3382751,21.5576113 14.1192493,21.5356097 13.9062243,21.4936067 C14.3502765,22.897707 15.6384281,23.91978 17.1646076,23.9487821 C15.9704671,24.8958497 14.4662902,25.4608901 12.8320979,25.4608901 C12.5510648,25.4608901 12.2730321,25.4448889 12,25.4118866 C13.5431816,26.4149582 15.3763972,27 17.346629,27 C23.7613837,27 27.2697964,21.6146153 27.2697964,16.9442817 C27.2697964,16.7902707 27.265796,16.6392599 27.2597953,16.4872491 C27.9408754,15.9892135 28.5329451,15.366169 29,14.6581184 L29,14.6571184 L29,14.6571184 Z" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

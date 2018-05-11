@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="102px" height="102px" viewBox="0 0 102 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Right</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-71.4%" y="-57.1%" width="242.9%" height="242.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="12.4335648%" y1="83.8985542%" x2="92.4174551%" y2="10.5717246%" id="linearGradient-2">
+            <stop stop-color="#3F58B5" offset="0%"></stop>
+            <stop stop-color="#2DB0C2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index-(Desktop)" transform="translate(-1447.000000, -5940.000000)">
+            <g id="#6" transform="translate(397.000000, 5763.000000)">
+                <g id="Arrows" transform="translate(1002.000000, 192.000000)">
+                    <g id="Right" filter="url(#filter-1)" transform="translate(71.000000, 0.000000)">
+                        <rect id="Oval" fill="url(#linearGradient-2)" x="0" y="0" width="56" height="56" rx="28"></rect>
+                        <path d="M28.9999668,34 C28.6415261,34 28.2831297,33.8559434 28.0098507,33.568436 L19.4102836,24.5166336 C18.8632388,23.9408267 18.8632388,23.0072545 19.4102836,22.4316805 C19.9571071,21.8561065 20.8438694,21.8561065 21.3909584,22.4316805 L28.9999668,30.4412159 L36.6090194,22.43196 C37.1560642,21.856386 38.042738,21.856386 38.5895172,22.43196 C39.1368276,23.007534 39.1368276,23.9411062 38.5895172,24.5169132 L29.9900829,33.5687155 C29.7166712,33.8562696 29.3582747,34 28.9999668,34 Z" id="Arrow" fill="#FFFFFF" fill-rule="nonzero" transform="translate(29.000000, 28.000000) rotate(-90.000000) translate(-29.000000, -28.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
